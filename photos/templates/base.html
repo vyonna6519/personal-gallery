@@ -17,11 +17,11 @@
 
     {% block styles %}
       {% bootstrap_css %}
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.css" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css"/> 
+      <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet"> 
       <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     {% endblock %}
     <link rel="icon" href="http://icons.iconarchive.com/icons/iconsmind/outline/256/Old-Camera-icon.png" type="image/png">
