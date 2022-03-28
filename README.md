@@ -49,9 +49,6 @@ Sample picture:
 * [Bootstrap](https://getbootstrap.com/) and [Javascript](https://www.javascript.com/) for styling
 * [Heroku](https://heroku.com)
 
-## Authors
-
-* **Vyonna Njenga** - *Initial work* - [Github](https://github.com/TechVictorKE/)
 
 ## License
 
