@@ -5,6 +5,7 @@ Django==2.2.24
 django-bootstrap4==0.0.7
 django-cors-headers==3.11.0
 django-heroku==0.3.1
+gunicorn==20.1.0
 Pillow==9.0.1
 psycopg2==2.8.6
 python-decouple==3.6
