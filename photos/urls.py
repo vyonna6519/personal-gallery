@@ -10,5 +10,5 @@ urlpatterns = [
     path('category', views.page_category,name='page_category'),
     path('location', views.page_location,name='page_location'),
 ]
-if settings.DEBUG:
-    urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + \
+              static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
