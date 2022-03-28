@@ -1,0 +1,53 @@
+body {
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #f7f7f7;
+    width: 100%;
+  }
+.image {
+    opacity: 1;
+    display: block;
+    width: 30%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+.masonry {
+    margin: 1em auto;
+    max-width: 100%;
+    column-gap: 1.5em;
+} 
+
+@media only screen and (min-width: 1024px) {
+    .masonry {
+      column-count: 3;
+    }
+  }
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+      column-count: 3;
+    }
+  }
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+    .masonry {
+      column-count: 2;
+    }
+  } 
+/* Masonry on smallest screens */
+@media only screen and (max-width: 539px) {
+    .masonry {
+      column-count: 1;
+      max-width: 80%;
+    }
+  
+    /* .header {
+      display: none;
+    } */
+  
+  
+    .navbar {
+      background-color: black !important;
+      
+    }
+  }
+  
