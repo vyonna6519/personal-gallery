@@ -32,7 +32,7 @@ function copyLink(imageid) {
                                                                     <p>Location: {{image.image_location}} / Category: {{image.image_category}}</p>
                                                                     <button class="rounded btn-primary" onclick=copyLink()"{{image.id}}-url") >📋Copy Download Link</button>'>
 
-        <img class="img-fluid max-width: 100%" src="{{image.image_path.url}}" alt="{{image.image_name}}">
+        <img class="img-fluid" src="{{image.image_path.url}}" alt="{{image.image_name}}">
       </a>
       <input type="text" id="{{image.id}}-url" class="d-none form-control input-sm " value="https://gallery-unchained.herokuapp.com{{image.image_path.url}}">
       <!-- <img class="img-fluid rounded image" src="{{image.image_path.url}}" alt="{{image.image_name}}"> -->
